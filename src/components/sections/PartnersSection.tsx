@@ -6,44 +6,49 @@ import { fadeIn } from '../../utils/animations';
 const partners = [
   {
     id: 1,
-    name: 'Microsoft',
-    logo: 'https://via.placeholder.com/150x80?text=Microsoft'
+    name: 'Xtra Trust GST',
+    logo: 'https://5.imimg.com/data5/SELLER/Default/2022/7/JT/KI/ZQ/1940562/xtratrust-digital-signature.png'
   },
   {
     id: 2,
-    name: 'Google',
-    logo: 'https://via.placeholder.com/150x80?text=Google'
+    name: 'Panta Sign DSC',
+    logo: 'https://m.media-amazon.com/images/I/41lG0OnUbUL.jpg'
   },
   {
     id: 3,
-    name: 'Amazon',
-    logo: 'https://via.placeholder.com/150x80?text=Amazon'
+    name: 'VSIGN',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrOAr0vUQ5F8YSRok6Xeivsjb9Xwu3OEbqg&s'
   },
   {
     id: 4,
-    name: 'IBM',
-    logo: 'https://via.placeholder.com/150x80?text=IBM'
+    name: 'Capricorn',
+    logo: 'https://www.capricorn.cash/images/ca/form-logo.png'
   },
   {
     id: 5,
-    name: 'Oracle',
-    logo: 'https://via.placeholder.com/150x80?text=Oracle'
+    name: 'ProDigi Sign',
+    logo: 'https://prodigisign.com/wp-content/uploads/2022/05/Pro_digi_logo-768x300.png'
   },
   {
     id: 6,
-    name: 'Salesforce',
-    logo: 'https://via.placeholder.com/150x80?text=Salesforce'
+    name: 'DSC',
+    logo: 'https://edigitalsignature.org/assets/img/logo.png'
   },
-  {
-    id: 7,
-    name: 'Adobe',
-    logo: 'https://via.placeholder.com/150x80?text=Adobe'
-  },
-  {
-    id: 8,
-    name: 'Intel',
-    logo: 'https://via.placeholder.com/150x80?text=Intel'
-  }
+  // {
+  //   id: 6,
+  //   name: 'Salesforce',
+  //   logo: 'https://via.placeholder.com/150x80?text=Salesforce'
+  // },
+  // {
+  //   id: 7,
+  //   name: 'Adobe',
+  //   logo: 'https://via.placeholder.com/150x80?text=Adobe'
+  // },
+  // {
+  //   id: 8,
+  //   name: 'Intel',
+  //   logo: 'https://via.placeholder.com/150x80?text=Intel'
+  // }
 ];
 
 const PartnersSection: React.FC = () => {

@@ -9,6 +9,8 @@ interface ServiceCardProps {
   features?: string[];
   className?: string;
   highlightedFeature?: string;
+  onClick?: () => void;
+  buttonText?: string;
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
@@ -19,6 +21,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   features = [],
   className = '',
   highlightedFeature,
+  onClick,
+  buttonText = 'Get Started'
 }) => {
   return (
     <motion.div
@@ -27,7 +31,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true, margin: "-50px" }}
-      className={`bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 h-full flex flex-col ${className}`}
+      className={`bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 h-full flex flex-col ${className} ${onClick ? 'cursor-pointer' : ''}`}
+      onClick={onClick}
     >
       <div className="p-6 border-b border-neutral-200">
         <div className="flex justify-between items-start">
@@ -58,9 +63,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           </ul>
         </div>
       )}
-      <div className="p-6">
-        <button className="w-full py-2 px-4 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-md transition-colors shadow-sm">
-          Get Started
+      <div className="p-6 mt-auto">
+        <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-md hover:bg-primary-700 transition-colors">
+          {buttonText}
         </button>
       </div>
     </motion.div>

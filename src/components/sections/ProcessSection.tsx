@@ -183,9 +183,9 @@ const ProcessSection: React.FC = () => {
             <div className="bg-primary-600 text-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">Ready to Get Started?</h3>
               <p className="mb-4">Schedule your initial consultation today and take the first step towards establishing your business legally.</p>
-              <button className="px-6 py-2 bg-white text-primary-600 font-medium rounded-md hover:bg-neutral-100 transition-colors shadow-sm">
+              {/* <button className="px-6 py-2 bg-white text-primary-600 font-medium rounded-md hover:bg-neutral-100 transition-colors shadow-sm">
                 Book a Consultation
-              </button>
+              </button> */}
             </div>
           </motion.div>
         </div>

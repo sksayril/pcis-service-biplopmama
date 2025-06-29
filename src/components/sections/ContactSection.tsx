@@ -55,7 +55,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-neutral-500 mb-1">Phone Number</h4>
-                    <p className="text-neutral-800">+91  861 731 8068</p>
+                    <p className="text-neutral-800">+91 9593311014</p>
                   </div>
                 </div>
                 
@@ -65,7 +65,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-neutral-500 mb-1">Email Address</h4>
-                    <p className="text-neutral-800">info@PCIS-Service.com</p>
+                    <p className="text-neutral-800">info.pcisservice@gmail.com</p>
                   </div>
                 </div>
                 
@@ -75,7 +75,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-neutral-500 mb-1">Office Location</h4>
-                    <p className="text-neutral-800">123 Business Avenue, Corporate Park, New Delhi, 110001</p>
+                    <p className="text-neutral-800">74/2, Ground Floor, Gora Bazar, Dumdum Cant, Kolkata, West Bengal - 700028</p>
                   </div>
                 </div>
                 
