@@ -39,10 +39,14 @@ const Header: React.FC = () => {
             variants={fadeIn('right', 0.2)}
             initial="hidden"
             whileInView="show"
-            className="text-2xl font-bold text-primary-600"
           >
-            <span className="text-primary-700">PCIS</span>
-            <span className="text-accent-500">Services</span>
+            <Link to="/">
+              <img 
+                src="/logo.svg" 
+                alt="PCIS Services Logo" 
+                className="h-12 md:h-14" 
+              />
+            </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
